@@ -1,5 +1,5 @@
 # PRISM-SPI-SPEI
-code to calculate standardized precipitation index (SPI) and standardized precipitation-evapotranspiration index (SPEI) from PRISM monthly temperature and precipitation data
+Code to calculate and visualize standardized precipitation index (SPI) and standardized precipitation-evapotranspiration index (SPEI) from PRISM monthly temperature and precipitation data
 
 At the Colorado Climate Center, we calculate [SPI and SPEI each month over Colorado using gridded climate data](https://climate.colostate.edu/spi_monthly_maps.html), specifically from the [PRISM climate group](https://prism.oregonstate.edu) and [NOAA's nClimGrid dataset](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332)
 
