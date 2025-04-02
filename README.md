@@ -11,4 +11,5 @@ The workflow is:
 - Run `process_climate_indices` to calculate SPI, PET, and SPEI, following [the instructions](https://climate-indices.readthedocs.io/en/latest/) for that package. For example, to calculate SPI, we use `process_climate_indices --index spi --periodicity monthly --netcdf_precip PRISM_prcp_monthly_CO_all.nc --var_name_precip prcp --output_file_base PRISM_CO --scales 1 2 3 4 5 6 9 12 24 48 60 --calibration_start_year 1901 --calibration_end_year 2020 --multiprocessing all_but_one`
 - Make the maps, using prism_drought_maps.py. This requires xarray and standard python plotting packages (matplotlib, cartopy, metpy)
 - An example output map looks like this:
+![Standardized Precipitation Index over Colorado for the 3-month period ending March 2025](spi_3month_current_CO.png?raw=true "Standardized Precipitation Index over Colorado for the 3-month period ending March 2025")
 
